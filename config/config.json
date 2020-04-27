@@ -1,0 +1,25 @@
+{
+  "development": {
+    "port": 3306,
+    "username": "root",
+    "password": "root",
+    "database": "quarantine_db",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "root",
+    "database": "database_test",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "t4txe35mhzg0364x",
+    "password": "uimi27zjo3p8mubl",
+    "database": "e2f57fir8vsxag7n",
+    "host": "o3iyl77734b9n3tg.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql",
+    "use_env_variable":"JAWSDB_URL"
+  }
+}

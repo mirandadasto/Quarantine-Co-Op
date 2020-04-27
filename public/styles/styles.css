@@ -1,0 +1,58 @@
+#navBar {
+  float: right;
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+#logoPic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.list-group-item {
+  line-height: 2.5;
+}
+
+#topBtn:hover {
+  background-color: lightblue;
+}
+
+body {
+  background-image: url(../images/repeated-square.png);
+}
+
+.inStockList,
+.checkedOutList {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #DDF;
+    color: #000;
+}
